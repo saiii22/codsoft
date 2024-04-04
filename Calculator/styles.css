@@ -1,0 +1,115 @@
+/* body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #e0e6f7 0%, #c3d1e4 100%);
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  header{
+    font-style: oblique;
+    font-size: 40px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);;
+  }
+  
+  
+  
+  .calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 400px;
+    background: #ffffff;
+  }
+  
+  .display {
+    background-color: #e1d7d7;
+    padding: 15px;
+    text-align:right;
+    
+    font-size: 3em;
+    height:50px;
+
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    border: none;
+    background-color: #fff;
+    padding: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d1cbcbc5;
+    transform: scale(1.1);
+  } */
+  
+
+  body {
+    font-family: Arial, sans-serif; /* Changed font to Arial */
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #f0f5fc 0%, #d4e4f2 100%); /* Adjusted background gradient */
+    justify-content: center; /* Centered content vertically */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  header {
+    font-style: italic; /* Changed oblique to italic */
+    font-size: 2.5em; /* Decreased font size */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; /* Added margin at the bottom */
+  }
+  
+  .calculator {
+    border: 2px solid #ccc; /* Increased border width */
+    border-radius: 10px; /* Increased border radius */
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Increased box shadow */
+    width: 320px; /* Increased width */
+    height: 450px; /* Increased height */
+    background: #f7f7f7; /* Changed background color */
+  }
+  
+  .display {
+    background-color: #f0f0f0; /* Changed display background color */
+    padding: 15px;
+    text-align: right;
+    font-size: 2.5em; /* Decreased font size */
+    height: 70px; /* Increased height */
+    border-bottom: 2px solid #ccc; /* Added border bottom */
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Added gap between grid items */
+    padding: 10px; /* Added padding */
+  }
+  
+  button {
+    border: 1px solid #ccc; /* Added border */
+    background-color: #fff;
+    padding: 20px;
+    font-size: 1.8em; /* Increased font size */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eaeaea; /* Adjusted hover background color */
+    transform: scale(1.05); /* Decreased scaling */
+  }
+  
